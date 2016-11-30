@@ -130,7 +130,7 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>JournoEthics made with React</h2>
-          <p>Watch out!!! The options shuffle.</p>
+          <p>Watch out!!! The options shuffle - you've been warned</p>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
