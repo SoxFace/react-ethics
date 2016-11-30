@@ -18,9 +18,8 @@ class App extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {
-        Nintendo: 0,
-        Microsoft: 0,
-        Sony: 0
+        Unethical: 0,
+        Ethical: 0
       },
       result: ''
     };
@@ -130,7 +129,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>React Quiz</h2>
+          <h2>JournoEthics made with React</h2>
+          <p>Watch out - we shuffle the options to keep you focused.</p>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
